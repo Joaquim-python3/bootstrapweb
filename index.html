@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jink Market</title>
+  <link rel="icon" href="imagens/favicon/favicon_novo.jpg">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+  <div class="container">
+    <a class="navbar-brand mx-auto" href="#">
+      <img src="imagens/image.png" alt="Logo" class="logo-img">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 search-form">
+            <input class="form-control mr-sm-2 search-input" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn search-btn my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-light ml-2" href="#" role="button">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Conteúdo da página -->
+<div class="container-fluid mt-4">
+  <h1 class="text-center">Seja bem-vindo ao meu site!</h1>
+  <p class="text-center">Vendemos croppeds, vestidos, saias e conjuntos de roupas.</p>
+  <div class="row justify-content-center">
+    <!-- Barra lateral esquerda -->
+    <div class="col-sm-2 conteudo mr-2">
+      <h2>Saiba mais</h2>
+      <div class="area-de-saiba-mais">
+        <a href="" class="link-lateral">Nossas lojas <br></a>
+        <a href="" class="link-lateral">Nossos produtos <br></a>
+        <a href="" class="link-lateral">Nossos colaboradores <br></a>
+        <a href="" class="link-lateral">Trabalhe conosco <br></a>
+      </div>
+    </div>
+    <!-- Coluna 1 -->
+    <div class="col-sm-3 conteudo mr-2">
+      <h2>Cropped</h2>
+      <p class="promocao">PROMOÇÃO</p>
+      <div class="produtos">
+        <div class="produto" onclick="location.href='detalhes-do-produto.html';">
+          <img src="imagens/cropped/image-removebg-preview.png" alt="Cropped">
+          <div class="price">
+            <p class="nome-produto">Cropped Feminino Branco Alça Fivela</p>
+            <div class="stars">
+              <img src="imagens/stars/stars_img.png" alt="Estrelas" class="star-img">
+            </div>
+            <p class="frete">FRETE GRATIS</p>
+            <h2 class="cutted-price">R$ 39,90</h2>
+            <h3 class="real-price">R$ 29,90</h2>
+            <p style="font-size: small;">ou 5x R$ 5,98 sem juros</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Coluna 2 -->
+    <div class="col-sm-3 conteudo mr-2">
+      <h2>Vestidos</h2>
+      <p class="promocao">PROMOÇÃO</p>
+      <div class="produtos">
+        <div class="produto" onclick="location.href='detalhes-do-produto.html';">
+          <img src="imagens/vestidos/vestido_exemple.png" alt="Vestido">
+          <div class="price">
+            <p class="nome-produto">Vestido Feminino Criança Branco</p>
+            <div class="stars">
+              <img src="imagens/stars/stars_img.png" alt="Estrelas" class="star-img">
+            </div>
+            <p class="frete">FRETE GRATIS</p>
+            <h2 class="cutted-price">R$ 109,90</h2>
+            <h3 class="real-price">R$ 89,90</h2>
+            <p style="font-size: small;">ou 5x R$ 17,98 sem juros</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Coluna 3 -->
+    <div class="col-sm-3 conteudo">
+      <h2>Conjuntos</h2>
+      <p class="promocao">PROMOÇÃO</p>
+      <div class="produtos">
+        <div class="produto" onclick="location.href='detalhes-do-produto.html';">
+          <img src="imagens/conjuntos/conjunto_roupa.png" alt="Conjunto">
+          <div class="price">
+            <p class="nome-produto">Conjunto Feminino Azul Estampa</p>
+            <div class="stars">
+              <img src="imagens/stars/stars_img.png" alt="Estrelas" class="star-img">
+            </div>
+            <p class="frete">FRETE GRATIS</p>
+            <h2 class="cutted-price">R$ 199,99</h2>
+            <h3 class="real-price">R$ 139,90</h2>
+            <p style="font-size: small;">ou 5x R$ 27,98 sem juros</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rodapé -->
+<footer>
+  <span>&copy; 2024 Meu Site Bootstrap. Todos os direitos reservados.</span>
+  <span></span>
+</footer>
+
+<!-- Bootstrap JS (opcional, necessário para alguns recursos do Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
