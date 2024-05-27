@@ -20,9 +20,6 @@ Este projeto é uma landing page destinada a uma loja de roupas online. A págin
 - **Design Responsivo:** A página se ajusta automaticamente a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis e desktops.
 - **Carrossel de Imagens:** Destaque para produtos em promoção ou lançamentos.
 - **Seção de Produtos:** Exibição de produtos populares com imagens, descrições e preços.
-- **Depoimentos:** Área dedicada para feedbacks de clientes satisfeitos.
-- **Formulário de Newsletter:** Captura de emails para campanhas de marketing.
-- **Rodapé Informativo:** Informações de contato, links para redes sociais e políticas da loja.
 
 ## Tecnologias Utilizadas
 
